@@ -9,7 +9,7 @@ class Dummy{
 
 TEST(RandomTest, RandomTest) {
   // Without this ranlux generator or with different random generator, it works well
-  std::ranlux48 rand_engine;
+  // std::ranlux48 rand_engine;
   auto a = std::make_shared<Dummy>();
   auto b = std::make_shared<Dummy>();
 
